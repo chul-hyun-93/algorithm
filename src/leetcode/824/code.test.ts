@@ -1,5 +1,5 @@
 const VOWEL = ["a", "e", "i", "o", "u"];
-const isVowel = (char: string) => VOWEL.includes(char);
+const isVowel = (char: string) => VOWEL.includes(char.toLowerCase());
 
 function toGoatLatin(sentence: string): string {
   const words = sentence.split(" ");
@@ -15,16 +15,23 @@ function toGoatLatin(sentence: string): string {
     .join(" ");
 }
 
-test.each([
-  {
-    input: "I speak Goat Latin",
-    expected: "Imaa peaksmaaa oatGmaaaa atinLmaaaaa",
-  },
-  {
-    input: "The quick brown fox jumped over the lazy dog",
-    expected:
-      "heTmaa uickqmaaa rownbmaaaa oxfmaaaaa umpedjmaaaaaa overmaaaaaaa hetmaaaaaaaa azylmaaaaaaaaa ogdmaaaaaaaaaa",
-  },
-])("case %#", ({ input, expected }) => {
+test('case 1', () => {
+  const input = "I speak Goat Latin";
+  const expected = "Imaa peaksmaaa oatGmaaaa atinLmaaaaa";
+
+  expect(toGoatLatin(input)).toBe(expected);
+});
+
+test('case 2', () => {
+  const input = "The quick brown fox jumped over the lazy dog";
+  const expected = "heTmaa uickqmaaa rownbmaaaa oxfmaaaaa umpedjmaaaaaa overmaaaaaaa hetmaaaaaaaa azylmaaaaaaaaa ogdmaaaaaaaaaa";
+
+  expect(toGoatLatin(input)).toBe(expected);
+});
+
+test('case 3', () => {
+  const input = "Each word consists of lowercase and uppercase letters only"
+  const expected = "Eachmaa ordwmaaa onsistscmaaaa ofmaaaaa owercaselmaaaaaa andmaaaaaaa uppercasemaaaaaaaa etterslmaaaaaaaaa onlymaaaaaaaaaa"
+
   expect(toGoatLatin(input)).toBe(expected);
 });
