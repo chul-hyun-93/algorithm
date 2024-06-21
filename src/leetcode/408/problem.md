@@ -1,0 +1,3 @@
+link: https://leetcode.com/problems/valid-word-abbreviation/description/
+
+![img.png](img.png)
