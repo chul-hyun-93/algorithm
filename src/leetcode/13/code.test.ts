@@ -15,14 +15,14 @@ const MAP:Record<typeof KEYS[number], number> = {
   "CM": 900,
 }
 
+const SEPARATOR = ' ';
+
 function romanToInt(s: string): number {
   KEYS.forEach((key) => {
-    s = s.replace(new RegExp(key, 'g'), `${MAP[key]} `);
+    s = s.replace(new RegExp(key, 'g'), `${MAP[key]}${SEPARATOR}`);
   })
-  const list = s.split(' ');
+  const list = s.split(SEPARATOR);
   list.pop();
-
-  console.log(list);
 
   return list.reduce((acc, cur) => {
     const num = parseInt(cur);
