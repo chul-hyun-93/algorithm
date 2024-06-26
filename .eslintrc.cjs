@@ -32,6 +32,11 @@ module.exports = {
       },
       rules: {
         "prettier/prettier": "error",
+        '@typescript-eslint/no-use-before-define': 'off',
+        'no-continue': 'off',
+        'no-plusplus': 'off',
+        '@typescript-eslint/no-loop-func': 'off',
+        'no-restricted-syntax': 'off',
       },
       env: {
         node: true,

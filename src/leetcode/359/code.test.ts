@@ -1,23 +1,19 @@
-type message = string;
-type timestamp = number;
+type Message = string;
+type Timestamp = number;
 
 const MAX_TIME = 10;
 
 class Logger {
-  map: Map<message, timestamp> = new Map();
+  map: Map<Message, Timestamp> = new Map();
 
   shouldPrintMessage(timestamp: number, message: string): boolean {
     const prevTimestamp = this.map.get(message);
 
-    if(prevTimestamp !== undefined){
-      if(timestamp - prevTimestamp < MAX_TIME) {
-        return false;
-      }
+    if (prevTimestamp === undefined || prevTimestamp + MAX_TIME <= timestamp) {
       this.map.set(message, timestamp);
       return true;
     }
 
-    this.map.set(message, timestamp);
-    return true;
+    return false;
   }
 }

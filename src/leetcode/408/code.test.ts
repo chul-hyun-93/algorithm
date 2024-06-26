@@ -1,36 +1,43 @@
 function validWordAbbreviation(word: string, abbr: string): boolean {
-  let i = 0;
-  let j = 0;
-  for(; i < abbr.length; i++) {
-    if(j >= word.length) return false;
+  let abbrIndex = 0;
+  let wordIndex = 0;
+  for (; abbrIndex < abbr.length; abbrIndex++) {
+    if (wordIndex >= word.length) return false;
 
-    if(abbr[i] === word[j]) {
-      j++;
+    if (!isNumber(abbr[abbrIndex])) {
+      if (abbr[abbrIndex] !== word[wordIndex]) return false;
+      wordIndex++;
       continue;
     }
 
-    if(abbr[i] === '0') return false;
+    if (abbr[abbrIndex] === "0") return false;
 
-    let num = '';
-    while(i < abbr.length && !isNaN(Number(abbr[i]))) {
-      num += abbr[i];
-      i++;
-    }
-    i--;
+    const num = (() => {
+      let result = "";
+      while (abbrIndex < abbr.length && isNumber(abbr[abbrIndex])) {
+        result += abbr[abbrIndex];
+        abbrIndex++;
+      }
+      abbrIndex--;
+      return result;
+    })();
 
-    if(num === '') return false;
-
-    j += Number(num);
+    wordIndex += Number(num);
   }
 
-  return j === word.length;
+  return wordIndex === word.length;
 }
 
-test('case 1', () => {
-  expect(validWordAbbreviation("internationalization","i12iz4n")).toStrictEqual(true);
+const isNumber = (str: string): boolean => {
+  return !Number.isNaN(Number(str));
+};
+
+test("case 1", () => {
+  expect(
+    validWordAbbreviation("internationalization", "i12iz4n"),
+  ).toStrictEqual(true);
 });
 
-test('case 2', () => {
+test("case 2", () => {
   expect(validWordAbbreviation("apple", "a2e")).toStrictEqual(false);
 });
-
