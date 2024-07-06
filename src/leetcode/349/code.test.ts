@@ -1,6 +1,6 @@
 function intersection(nums1: number[], nums2: number[]): number[] {
   const nums1Set = new Set<number>();
-  const result = [];
+  const result = new Set<number>();
 
   for (const num of nums1) {
     nums1Set.add(num);
@@ -8,12 +8,11 @@ function intersection(nums1: number[], nums2: number[]): number[] {
 
   for (const num of nums2) {
     if (nums1Set.has(num)) {
-      result.push(num);
-      nums1Set.delete(num);
+      result.add(num);
     }
   }
 
-  return result;
+  return Array.from(result);
 }
 
 test("case 1", () => {
