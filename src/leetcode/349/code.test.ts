@@ -1,13 +1,9 @@
 function intersection(nums1: number[], nums2: number[]): number[] {
-  const nums1Set = new Set<number>();
+  const set1 = new Set<number>(nums1);
   const result = new Set<number>();
 
-  for (const num of nums1) {
-    nums1Set.add(num);
-  }
-
   for (const num of nums2) {
-    if (nums1Set.has(num)) {
+    if (set1.has(num)) {
       result.add(num);
     }
   }
