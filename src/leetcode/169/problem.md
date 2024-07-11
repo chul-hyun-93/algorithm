@@ -1,6 +1,6 @@
 link: https://leetcode.com/problems/majority-element/
 
-![img.png](img.png)
+
 
 주어진 크기 n의 배열 nums에서 다수 요소(majority element)를 반환하세요.
 

@@ -1,6 +1,6 @@
-link: https://leetcode.com/problems/merge-sorted-array/
+88. Merge Sorted Array
 
-![img.png](img.png)
+link: https://leetcode.com/problems/merge-sorted-array/
 
 두 개의 정수 배열 nums1과 nums2가 주어지며, 오름차순으로 정렬되어 있습니다. 또한, 각각 nums1과 nums2의 요소 수를 나타내는 두 개의 정수 m과 n이 주어집니다.
 

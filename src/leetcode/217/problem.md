@@ -1,6 +1,6 @@
 link: https://leetcode.com/problems/contains-duplicate/description/
 
-![img.png](img.png)
+
 
 정수 배열 nums가 주어질 때, 배열 내의 어떤 값이 적어도 두 번 이상 나타나면 true를 반환하고, 모든 요소가 서로 다르면 false를 반환하세요.
 

@@ -1,6 +1,6 @@
 link: https://leetcode.com/problems/range-sum-of-bst 
 
-![img.png](img.png)
+
 
 이진 탐색 트리의 루트 노드와 두 정수 low와 high가 주어졌을 때, 값이 [low, high] 범위에 포함된 모든 노드의 값을 합산하여 반환하세요.
 

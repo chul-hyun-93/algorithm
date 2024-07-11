@@ -1,6 +1,6 @@
 link: https://leetcode.com/problems/happy-number/description
 
-![img.png](img.png)
+
 
 다음 알고리즘을 작성하여 숫자 n이 행복한지 여부를 결정하세요.
 

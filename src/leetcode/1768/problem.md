@@ -1,6 +1,6 @@
 link: https://leetcode.com/problems/merge-strings-alternately/
 
-![img.png](img.png)
+
 
 두 문자열 word1과 word2가 주어집니다. 두 문자열을 번갈아 가며 문자를 추가하여 병합합니다. word1부터 시작합니다. 만약 한 문자열이 다른 문자열보다 길다면, 추가된 문자를 병합된 문자열 끝에 추가합니다.
 

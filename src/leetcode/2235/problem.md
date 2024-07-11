@@ -1,6 +1,6 @@
 link: https://leetcode.com/problems/add-two-integers
 
-![img.png](img.png)
+
 
 두 정수 num1과 num2가 주어질 때, 두 정수의 합을 반환하세요.
 

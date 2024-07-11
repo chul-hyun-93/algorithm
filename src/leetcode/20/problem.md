@@ -1,6 +1,6 @@
-link: https://leetcode.com/problems/valid-parentheses/description/
+20. Valid Parentheses
 
-![img.png](img.png)
+link: https://leetcode.com/problems/valid-parentheses/description/
 
 주어진 문자열 s에는 ‘(’, ‘)’, ‘{’, ‘}’, ‘[’, ‘]’ 문자만 포함되어 있습니다. 입력 문자열이 유효한지 판단하세요.
 

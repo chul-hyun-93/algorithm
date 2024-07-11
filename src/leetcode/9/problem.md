@@ -1,7 +1,6 @@
+9. Palindrome Number
+
 link: https://leetcode.com/problems/palindrome-number/description/
-
-![img.png](img.png)
-
 
 주어진 정수 x가 회문인지 확인하여 true를 반환하고, 그렇지 않으면 false를 반환하세요.
 

@@ -1,6 +1,6 @@
-link: https://leetcode.com/problems/longest-common-prefix/description/
+14. Longest Common Prefix
 
-![img.png](img.png)
+link: https://leetcode.com/problems/longest-common-prefix/description/
 
 문자열 배열에서 가장 긴 공통 접두사를 찾는 함수를 작성하세요.
 

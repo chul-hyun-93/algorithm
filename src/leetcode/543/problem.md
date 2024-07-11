@@ -1,6 +1,6 @@
 link: https://leetcode.com/problems/diameter-of-binary-tree
 
-![img.png](img.png)
+
 
 주어진 이진 트리의 루트 노드를 기준으로 트리의 지름의 길이를 반환하세요.
 

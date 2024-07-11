@@ -1,7 +1,5 @@
 link: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 
-![img.png](img.png)
-
 ### 26. 정렬된 배열에서 중복 제거
 
 정수 배열 `nums`가 비내림차순으로 정렬되어 있을 때, 각 고유 요소가 한 번만 나타나도록 제자리에서 중복을 제거하세요. 요소들의 상대적 순서는 동일하게 유지해야 합니다. 그런 다음 `nums`에서 고유 요소의 개수를 반환하세요.

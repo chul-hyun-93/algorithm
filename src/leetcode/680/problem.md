@@ -1,6 +1,6 @@
 link: https://leetcode.com/problems/valid-palindrome-ii/description/
 
-![img.png](img.png)
+
 
 주어진 문자열 s에서 최대 한 글자를 삭제한 후 회문이 될 수 있다면 true를 반환하세요.
 

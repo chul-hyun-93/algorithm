@@ -1,6 +1,6 @@
-link: https://leetcode.com/problems/climbing-stairs/description/
+70. Climbing Stairs
 
-![img.png](img.png)
+link: https://leetcode.com/problems/climbing-stairs/description/
 
 계단을 오르고 있습니다. 정상에 도달하려면  n 개의 계단을 올라야 합니다.
 

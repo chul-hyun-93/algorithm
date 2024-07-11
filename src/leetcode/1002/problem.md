@@ -1,6 +1,6 @@
 link: https://leetcode.com/problems/find-common-characters/
 
-![img.png](img.png)
+
 
 주어진 문자열 배열 words가 있을 때, 모든 문자열에 나타나는 모든 문자를(중복 포함) 배열로 반환하세요. 답을 어떤 순서로든 반환해도 좋습니다.
 

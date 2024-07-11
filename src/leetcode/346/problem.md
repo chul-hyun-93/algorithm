@@ -1,6 +1,6 @@
 link: https://leetcode.com/problems/moving-average-from-data-stream
 
-![img.png](img.png)
+
 
 정수 스트림과 윈도우 크기가 주어졌을 때, 슬라이딩 윈도우 내 모든 정수의 이동 평균을 계산하세요.
 

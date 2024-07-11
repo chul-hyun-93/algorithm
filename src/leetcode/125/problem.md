@@ -1,6 +1,6 @@
 link: https://leetcode.com/problems/valid-palindrome
 
-![img.png](img.png)
+
 
 문구가 대문자를 소문자로 변환하고 모든 영숫자가 아닌 문자를 제거한 후에도 앞으로 읽으나 뒤로 읽으나 동일하다면, 그 문구는 팰린드롬입니다. 영숫자 문자는 문자와 숫자를 포함합니다.
 

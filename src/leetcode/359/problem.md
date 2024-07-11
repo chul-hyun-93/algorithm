@@ -1,6 +1,6 @@
 link: https://leetcode.com/problems/logger-rate-limiter/
 
-![img.png](img.png)
+
 
 메시지 스트림과 해당 타임스탬프를 수신하는 로거 시스템을 설계하세요. 각 고유한 메시지는 최대 10초마다 한 번만 출력되어야 합니다(즉, 타임스탬프 t에서 출력된 메시지는 t + 10까지 동일한 메시지가 출력되지 않도록 방지합니다).
 

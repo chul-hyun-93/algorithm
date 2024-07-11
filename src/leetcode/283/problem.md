@@ -1,6 +1,6 @@
 link: https://leetcode.com/problems/move-zeroes/description/
 
-![img.png](img.png)
+
 
 주어진 정수 배열에서 0을 모두 배열의 끝으로 이동시키고, 0이 아닌 요소의 상대적인 순서는 유지하세요. 배열을 복사하지 않고 제자리에서 이 작업을 수행해야 합니다.
 

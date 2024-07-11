@@ -1,6 +1,6 @@
-link: https://leetcode.com/problems/merge-two-sorted-lists
+21. Merge Two Sorted Lists
 
-![img.png](img.png)
+link: https://leetcode.com/problems/merge-two-sorted-lists
 
 두 개의 정렬된 연결 리스트 list1과 list2의 헤드가 주어집니다.
 

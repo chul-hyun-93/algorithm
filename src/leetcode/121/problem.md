@@ -1,6 +1,6 @@
 lihnk: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
 
-![img.png](img.png)
+
 
 당신에게 주어진 배열 prices는 prices[i]가 i번째 날의 주어진 주식의 가격을 나타냅니다.
 

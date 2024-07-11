@@ -1,6 +1,6 @@
 link: https://leetcode.com/problems/fizz-buzz/
 
-![img.png](img.png)
+
 
 정수 n이 주어졌을 때, 다음 조건에 따라 문자열 배열 answer(1부터 시작하는 인덱스)를 반환하세요:
 
